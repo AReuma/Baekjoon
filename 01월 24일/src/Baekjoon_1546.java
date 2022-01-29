@@ -17,9 +17,9 @@ public class Baekjoon_1546 {
 
         double avg = 0.0;
         for(int i = 0; i < subj; i++){
-
             avg += (double) score[i]/max*100;
         }
+        System.out.println(avg);
         System.out.println(avg/subj);
 
     }
